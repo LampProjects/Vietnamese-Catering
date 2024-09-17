@@ -1,0 +1,46 @@
+/* ContactPage.css */
+/* Patrick Lam */
+.contact-title {
+    color: #fff;
+    text-align: center;
+    margin:  0 0 0;
+    font: 400 96px Outfit, sans-serif;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .contact-form button {
+    background-color: #d9d9d9;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-title {
+      font-size: 40px;
+      margin: 0 0 0;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 16px;
+    }
+  
+    .contact-form button {
+      font-size: 20px;
+    }
+  }

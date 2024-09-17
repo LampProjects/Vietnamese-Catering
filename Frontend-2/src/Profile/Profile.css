@@ -1,0 +1,27 @@
+/* Profile.css */
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color:white;
+  }
+  
+  .order-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color:white;
+    font-size: 24px;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding-left: 20px;
+  }

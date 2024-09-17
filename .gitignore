@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+
+# Ignore the node.js modules
+node_modules/
+.env
+

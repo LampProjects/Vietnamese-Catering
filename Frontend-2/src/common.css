@@ -1,0 +1,89 @@
+/*  
+    common.css for the thing that is shared everywhere
+    This is for the header and nav bar
+    Honestly this should be in the Components folder but I am lazy
+    
+    Author: Patrick Lam
+*/
+body {
+  margin: 0;
+  font-family: Outfit, sans-serif;
+  background-color: #166509; /* Green background color */
+}
+
+.page-wrapper {
+  background-color: #166509;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  max-width: 1065px;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  padding: 0 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.logo-image {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+@media (max-width: 991px) {
+  .page-wrapper {
+    padding: 0 20px;
+  }
+
+  .content-container {
+    max-width: 100%;
+  }
+
+  .header {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    max-width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
